@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="findDev">
+      <header class="header">
+        <h2>Buscador de Dev</h2>
+      </header>
+      <form class="form">
+        <i class="fa-solid fa-magnifying-glass lupa"></i>
+        <input data-user type="text" placeholder="Pesquisar GitHub Username...">
+        <button data-buscar>Buscar</button>
+      </form>
+      <main class="infoGit">
+        <img data-user="photo" src="25231.png" alt="">
+        <div class="infoUser">
+          <header class="headerInfo">
+            <h2 data-user="nome" class="name">Nome do Perfil</h2>
+            <div class="data">
+              <p>Ingressou no mês: <span class="mes">01</span> / <span class="ano">2011</span></p>
+            </div>
+          </header>
+          <p data-user="bio" class="bio">Biografia do Perfil</p>
+
+          <div class="reposFollowersFlowing">
+            <div class="repos">
+              <h4>Repositorio</h4>
+              <p data-user="repositorio" class="numero">0</p>
+            </div>
+            <div class="Followers">
+              <h4>Seguidores</h4>
+              <p data-user="seguidores" class="numero">0</p>
+            </div>
+            <div class="Flowing">
+              <h4>Seguindo</h4>
+              <p data-user="seguindo" class="numero">0</p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/d3300bf99f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

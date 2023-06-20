@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background: #141C30; 
+}
+
+img {
+  max-width: 100%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.findDev{
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.header h2 {
+  color: #f9f9f9;
+}
+
+.modo{
+  color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form{
+  position: relative;
+}
+
+.lupa{
+  color: #1483F5;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 12px;
+  left: 15px;
+}
+
+input {
+  padding: 15px 50px;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background: #1F2A48;
+  color: #f9f9f9;
+}
+
+input::placeholder{
+  margin-left: 40px;
+  color: #f9f9f9;
+}
+
+button{
+  position: absolute;
+  top: 8px;
+  padding: 8px 18px;
+  border-radius: 4px;
+  background: #1483F5;
+  border: none;
+  color: #f9f9f9;
+  cursor: pointer;
+  right: 15px;
+}
+
+.infoGit{
+  background: #1F2A48;
+  padding: 30px;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.infoUser{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.headerInfo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name,.data{
+  color: #f9f9f9;
+}
+
+.bio {
+  color: #c9c9c9;
+}
+
+.reposFollowersFlowing{
+  color: #f9f9f9;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #141C30;
+  padding: 15px;
+}
+
+.numero{
+  margin-top: 10px;
+}
